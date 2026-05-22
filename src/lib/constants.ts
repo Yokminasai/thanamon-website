@@ -8,6 +8,10 @@ export const SITE_URL =
 
 export const KEYWORD = "ธนมน โสภณธนวัฒน์";
 
+/** Google Search Console — meta name="google-site-verification" */
+export const GOOGLE_SITE_VERIFICATION =
+  "kODul19cXwGyX_xZ7hq6AhSmH17qTbZTGcBj-t-qGGM";
+
 export const SOCIAL = {
   wordpress: "https://thanamonofficial.wordpress.com/",
   youtube: "https://www.youtube.com/@thanamon.soponthanawat",

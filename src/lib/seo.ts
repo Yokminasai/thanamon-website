@@ -7,6 +7,7 @@ import {
   SITE_URL,
   SAME_AS,
   SOCIAL,
+  GOOGLE_SITE_VERIFICATION,
 } from "./constants";
 
 export function absoluteUrl(path = ""): string {
@@ -61,6 +62,9 @@ export function buildMetadata({
       title: fullTitle,
       description: desc,
       images: [absoluteUrl(image)],
+    },
+    verification: {
+      google: GOOGLE_SITE_VERIFICATION,
     },
     robots: {
       index: true,
