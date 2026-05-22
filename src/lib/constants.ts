@@ -4,7 +4,7 @@ export const SITE_TAGLINE =
   "นักคิด · นักเขียน · ผู้สร้างคอนเทนต์ดิจิทัล · ผู้เชี่ยวชาญ SEO และ personal branding";
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://thanamon.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://thanamon-website.vercel.app";
 
 export const KEYWORD = "ธนมน โสภณธนวัฒน์";
 
